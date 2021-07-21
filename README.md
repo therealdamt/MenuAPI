@@ -29,6 +29,7 @@ public void onCommand(CommandSender sender, Command command, String label, Strin
         Player player = (Player) sender;
         new Menu(player).updateMenu();
 }
+```
 
 ### Example
 
