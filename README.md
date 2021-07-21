@@ -13,10 +13,23 @@ A fork of [NV6's Menu API](https://github.com/NoSequel/MenuAPI)
 
 ```java
 @Override
-pubic void onEnable() {
+public void onEnable() {
     new MenuHandler(this);
 }
 ```
+
+```java
+@Override
+public void onCommand(CommandSender sender, Command command, String label, String[] args) {
+       if (!(sender instanceof Player) {
+            sender.sendMessage(ChatColor.RED  + "You must be a player to run this command!"
+            return;
+        }
+        
+        Player player = (Player) sender;
+        new Menu(player).updateMenu();
+}
+
 ### Example
 
 ```java
