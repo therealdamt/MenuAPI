@@ -77,7 +77,7 @@ public abstract class Menu {
     /**
      * The method to get the buttons for the current inventory tick
      * <p>
-     * Use {@code this.buttons[index] = Button} to assign
+     * Use {@code map.put(slot, button)} to assign
      * a button to a slot.
      */
     public abstract Map<Integer, Button> getButtons();
