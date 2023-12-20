@@ -70,7 +70,5 @@ Original Creator - [NV6](https://github.com/NoSequel)
 
 ### Contacts
 
-* [Telegram](https://t.me/therealdamt)
-* [Website](https://damt.xyz)
-* Discrord - damt#0886
+* Discrord - bingbongwaseem
 
